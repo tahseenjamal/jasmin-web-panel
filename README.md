@@ -42,8 +42,8 @@ To run on production:
 This requires that you run the collectstatic command (see above) and you should have `DEBUG=False`.
 
 
-# For Docker if you want to automate the Django create super user
-
+## For Docker if you want to automate the Django create super user
+...
 ENV DJANGO_DB_NAME=default
 ENV DJANGO_SU_NAME=admin
 ENV DJANGO_SU_EMAIL=admin@my.company
@@ -55,3 +55,4 @@ RUN python -c "import django; django.setup(); \
    username='$DJANGO_SU_NAME', \
    email='$DJANGO_SU_EMAIL', \
    password='$DJANGO_SU_PASSWORD')"
+...
