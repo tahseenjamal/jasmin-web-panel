@@ -7,8 +7,6 @@ docker run -d -p 1401:1401 -p 2775:2775 -p 8990:8990 --name jasmin_01 jookies/ja
 
 ## Jasmin Web Panel
 
-[![Build Status](https://travis-ci.org/101t/jasmin-web-panel.svg?branch=master)](https://travis-ci.org/101t/jasmin-web-panel)
-
 Jasmin SMS Web Interface for Jasmin SMS Gateway
 
 ## Installation
